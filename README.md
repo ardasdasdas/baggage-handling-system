@@ -29,6 +29,24 @@ Check-In işlemi tamamlandıktan sonra Baggage Handling System’in arayüzü ka
 
 ![bagaj taşıma](https://user-images.githubusercontent.com/53192718/86411415-825e0380-bcc5-11ea-8cf5-794503eda31b.png)
 
+### 2.4 Bagaj Ağırlık Kontrol Ekranı
+Check-in kısmını başarıyla geçen yolcu bu arayüz de bagajının ağırlığını kontrol ettirir.Eğer belirlenen kilogram sınırını aşmış ise fazladan bagaj hakkı satın alır.
+
+![ağırlıkkontrol](https://user-images.githubusercontent.com/53192718/86411504-aa4d6700-bcc5-11ea-9c5a-8aef594ec447.png)
+
+### 2.5 Güvenlik Ekranı
+Baggage Check işlemini başarıyla geçen bagaj Securtiy arayüzüne gelir ve içerisinde şüpheli bir eşya var mı yok mu kontrol edilir. Eğer şüpheli bir eşya var ise çıkarılması beklenir.
+
+![güvenlik](https://user-images.githubusercontent.com/53192718/86411587-d4068e00-bcc5-11ea-9690-78fb08d4b458.png)
+
+### Bagaj Dağıtım Ekranı
+Securtiy işlemini başarıyla geçen bagaj bu arayüz de Sort işlemine tabi tutulur. Bu Sort işlemi sırasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
+
+![sort](https://user-images.githubusercontent.com/53192718/86412050-d61d1c80-bcc6-11ea-8697-7cc80e59aefc.gif)
+
+
+
+
 
 
 
