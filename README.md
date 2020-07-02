@@ -12,13 +12,14 @@ NFA KABUL DURUMU (iki adet örnek verilmiştir):
 
 >ID OK OK OK OK OK ANOTHER-FLIGHT OK OK NO-MORE-FLIGHT
 
-DFA RET DURUMU (iki adet örnek verilmiştir):
+NFA RET DURUMU (iki adet örnek verilmiştir):
 
 >ID OK OK OK OK OK
 
 >ID OK OK OK OK LOST-BAGGAGE
 
-∑ {ID, OK, missing document,baggage overload,invalid item,lost baggage,no more flight,another flight}
+NFA Alfabesi:
+>∑ {ID, OK, missing document,baggage overload,invalid item,lost baggage,no more flight,another flight}
 
 ![bhs_NFA](https://user-images.githubusercontent.com/53192718/86411175-efbd6480-bcc4-11ea-83c6-43ac1af96949.jpg)
 
