@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<passengers>
+  <passenger passengerNo="0">
+    <passengerID>0</passengerID>
+    <flightNo>0</flightNo>
+    <extraBaggageAllowance>false</extraBaggageAllowance>
+    <transfer>false</transfer>
+    <baggageList>
+      <baggage baggageNo="0">
+        <suspicions>false</suspicions>
+        <baggageID>0</baggageID>
+        <baggageWeight>0</baggageWeight>
+        <owner>0</owner>
+        <baggageLocation>Departure Airport</baggageLocation>
+       </baggage>
+    </baggageList>
+  </passenger>
+</passengers>
