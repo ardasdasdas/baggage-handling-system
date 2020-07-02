@@ -13,6 +13,11 @@ ID OK OK OK OK LOST-BAGGAGE
 ∑ {ID, OK, missing document,baggage overload,invalid item,lost baggage,no more flight,another flight}
 
 ![bhs_NFA](https://user-images.githubusercontent.com/53192718/86411175-efbd6480-bcc4-11ea-83c6-43ac1af96949.jpg)
+
+### 1.1 Geçiş Tablosu
+![transitiontable1](https://user-images.githubusercontent.com/53192718/86413064-fc43bc00-bcc8-11ea-973a-57258cc698a9.png)
+![transitiontable2](https://user-images.githubusercontent.com/53192718/86413066-fcdc5280-bcc8-11ea-9add-d315515e0baf.png)
+
 ## 2. Uygulama Yazılım Dizaynı
 ### 2.1 Giriş Ekranı
 Simülasyonun karşımıza çıkan ilk arayüzü yukarıdaki görseldir. Bu arayüz de yolcunun uçuş numarası ve kimlik numarasına göre check-in işlemini gerçekleştiriyor. Eğer yolcu biletini henüz almamış ise biletini alması için add passenger arayüzüne geçiş yapmak zorundadır.
@@ -39,16 +44,46 @@ Baggage Check işlemini başarıyla geçen bagaj Securtiy arayüzüne gelir ve i
 
 ![güvenlik](https://user-images.githubusercontent.com/53192718/86411587-d4068e00-bcc5-11ea-9690-78fb08d4b458.png)
 
-### Bagaj Dağıtım Ekranı
+### 2.6 Bagaj Dağıtım Ekranı
 Securtiy işlemini başarıyla geçen bagaj bu arayüz de Sort işlemine tabi tutulur. Bu Sort işlemi sırasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
 
 ![sort](https://user-images.githubusercontent.com/53192718/86412050-d61d1c80-bcc6-11ea-8697-7cc80e59aefc.gif)
 
+### 2.7 Bagaj Yükleme Ekranı
+Sort işlemini başarıyla geçen bagaj bu arayüz de uçağa yüklenir. Eğer yükleme aşamasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
+
+![Load](https://user-images.githubusercontent.com/53192718/86412136-02d13400-bcc7-11ea-80f9-079059bae568.gif)
+
+### 2.8 Bagaj İndirme Ekranı
+Uçak varış noktasına geldiğinde bu arayüz de bagajların indirme işlemi yapılır.
 
 
+![unload](https://user-images.githubusercontent.com/53192718/86413330-973c9600-bcc9-11ea-8efe-3f791667a9ed.gif)
 
+### 2.9 Bagaj Transfer Ekranı
+Transfer olacak bagaj burada bantlar üzerinde valiz taşıma tabi tutulur.
 
+![baggagesTransfer](https://user-images.githubusercontent.com/53192718/86412689-3496ca80-bcc8-11ea-8924-eecc2cfb6007.gif)
 
+### 2.10 Kayıp Bagaj Ekranı
+Kaybolan bagajlar bu kısma gelerek Baggage ID bilgisine göre yolcuya verilir.
 
+![kayıp bagaj ekranı](https://user-images.githubusercontent.com/53192718/86412775-5c862e00-bcc8-11ea-95cc-4729d84720e6.png)
 
+### 2.11 Bagaj Teslim Ekranı
+Bütün işlemlerden başarıyla geçen bagaj Baggage Claim’e gelerek yolcuya verilir.
 
+![Arrival](https://user-images.githubusercontent.com/53192718/86412815-6e67d100-bcc8-11ea-9e2a-51ff84e5a30a.png)
+
+## 3. Opcat Tasarım Ekran Görüntüleri
+![OPD OPL_1](https://user-images.githubusercontent.com/53192718/86412925-a40cba00-bcc8-11ea-8b9b-a5e848ed6f79.png)
+![OPD_2](https://user-images.githubusercontent.com/53192718/86412961-bdae0180-bcc8-11ea-9a1d-496fe8b4afb7.png)
+![OPL_2](https://user-images.githubusercontent.com/53192718/86412968-c272b580-bcc8-11ea-9463-3cec57d74e8a.png)
+![OPD_3](https://user-images.githubusercontent.com/53192718/86412978-c7d00000-bcc8-11ea-8afb-27322c748d18.png)
+![OPL_3](https://user-images.githubusercontent.com/53192718/86412989-cf8fa480-bcc8-11ea-9eda-e3cce2a1c918.png)
+
+## 4. Takım Üyeleri
+* [İsmail Demircan](https://github.com/ismaildemircann)
+* [Muzaffer Arda Uslu](https://github.com/ardasdasdas)
+* [Onur Akkepenek](https://github.com/OnurAkkepenekk)
+* [Gökhan Samet Albayrak](https://github.com/gokhansamet)
