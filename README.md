@@ -6,12 +6,14 @@ Yapılan uygulama OPCAT üzerinde modellenerek C# üzerinde simülasyonu yapıld
 ### 3 - [Opcat Tasarım Ekran Görüntüleri](https://github.com/ardasdasdas/baggage-handling-system#3-opcat-tasar%C4%B1m-ekran-g%C3%B6r%C3%BCnt%C3%BCleri)
 ### 4 - [Takım Üyeleri](https://github.com/ardasdasdas/baggage-handling-system#4-tak%C4%B1m-%C3%BCyeleri)
 ## 1. NFA Diyagramı
-> NFA KABUL DURUMU (iki adet örnek verilmiştir):
+NFA KABUL DURUMU (iki adet örnek verilmiştir):
+
 >ID OK OK OK OK OK NO-MORE-FLIGHT
 
 >ID OK OK OK OK OK ANOTHER-FLIGHT OK OK NO-MORE-FLIGHT
 
->DFA RET DURUMU (iki adet örnek verilmiştir):
+DFA RET DURUMU (iki adet örnek verilmiştir):
+
 >ID OK OK OK OK OK
 
 >ID OK OK OK OK LOST-BAGGAGE
