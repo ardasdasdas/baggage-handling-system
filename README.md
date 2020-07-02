@@ -1,7 +1,10 @@
 # Bagaj Taşıma Sistemi
 Bagaj Taşıma Sistemi havaalanlarında kontrol edilen bagajların hareket eden bir bant vasıtasıyla uçağa taşıma ve uçaktan bagaj teslim noktasına taşınma modelidir. Bu sistem Biçimsel Diller ve Otomata dersinde Sonlu Devinim Otomata (NFA) konusu ile alakalıdır.
 Yapılan uygulama OPCAT üzerinde modellenerek C# üzerinde simülasyonu yapıldı.
-
+### 1 - [NFA Diyagramı](https://github.com/ardasdasdas/baggage-handling-system#1-nfa-diyagram%C4%B1)
+### 2 - [Uygulama Yazılım Dizaynı](https://github.com/ardasdasdas/baggage-handling-system#2-uygulama-yaz%C4%B1l%C4%B1m-dizayn%C4%B1)
+### 3 - [Opcat Tasarım Ekran Görüntüleri](https://github.com/ardasdasdas/baggage-handling-system#3-opcat-tasar%C4%B1m-ekran-g%C3%B6r%C3%BCnt%C3%BCleri)
+### 4 - [Takım Üyeleri](https://github.com/ardasdasdas/baggage-handling-system#4-tak%C4%B1m-%C3%BCyeleri)
 ## 1. NFA Diyagramı
 NFA KABUL DURUMU (iki adet örnek verilmiştir):
 ID OK OK OK OK OK NO-MORE-FLIGHT,
@@ -42,7 +45,7 @@ Check-in kısmını başarıyla geçen yolcu bu arayüz de bagajının ağırlı
 ### 2.5 Güvenlik Ekranı
 Baggage Check işlemini başarıyla geçen bagaj Securtiy arayüzüne gelir ve içerisinde şüpheli bir eşya var mı yok mu kontrol edilir. Eğer şüpheli bir eşya var ise çıkarılması beklenir.
 
-![güvenlik](https://user-images.githubusercontent.com/53192718/86411587-d4068e00-bcc5-11ea-9690-78fb08d4b458.png)
+![luggage1](https://user-images.githubusercontent.com/53192718/86413628-5729e300-bcca-11ea-8a72-166972115625.png)
 
 ### 2.6 Bagaj Dağıtım Ekranı
 Securtiy işlemini başarıyla geçen bagaj bu arayüz de Sort işlemine tabi tutulur. Bu Sort işlemi sırasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
