@@ -23,12 +23,12 @@ ID OK OK OK OK LOST-BAGGAGE
 
 ## 2. Uygulama Yazılım Dizaynı
 ### 2.1 Giriş Ekranı
-Simülasyonun karşımıza çıkan ilk arayüzü yukarıdaki görseldir. Bu arayüz de yolcunun uçuş numarası ve kimlik numarasına göre check-in işlemini gerçekleştiriyor. Eğer yolcu biletini henüz almamış ise biletini alması için add passenger arayüzüne geçiş yapmak zorundadır.
+Simülasyonun karşımıza çıkan ilk arayüzü aşağıdaki görseldir. Bu arayüz de yolcunun uçuş numarası ve kimlik numarasına göre check-in işlemini gerçekleştiriyor. Eğer yolcu biletini henüz almamış ise biletini alması için add passenger arayüzüne geçiş yapmak zorundadır.
 
 ![giriş](https://user-images.githubusercontent.com/53192718/86411265-25624d80-bcc5-11ea-9038-04fa65a026f1.png)
 
 ### 2.2 Yolcu Ekleme Ekranı
-Add Passenger arayüz tasarımı yukarıdaki görseldir. Burada kişinin bilgileri alınır ve yeni yolcu oluşturulur.Back Check -In  kısmı ile de yolcu check-in kısmına yönlendirilir.
+Add Passenger arayüz tasarımı aşağıdaki görseldir. Burada kişinin bilgileri alınır ve yeni yolcu oluşturulur. Back Check -In  kısmı ile de yolcu check-in kısmına yönlendirilir.
 
 ![yolcu ekle](https://user-images.githubusercontent.com/53192718/86411319-475bd000-bcc5-11ea-9e94-c89d3a29e937.png)
 
@@ -38,7 +38,7 @@ Check-In işlemi tamamlandıktan sonra Baggage Handling System’in arayüzü ka
 ![bagaj taşıma](https://user-images.githubusercontent.com/53192718/86411415-825e0380-bcc5-11ea-8cf5-794503eda31b.png)
 
 ### 2.4 Bagaj Ağırlık Kontrol Ekranı
-Check-in kısmını başarıyla geçen yolcu bu arayüz de bagajının ağırlığını kontrol ettirir.Eğer belirlenen kilogram sınırını aşmış ise fazladan bagaj hakkı satın alır.
+Check-in kısmını başarıyla geçen yolcu bu arayüzde bagajının ağırlığını kontrol ettirir. Eğer belirlenen kilogram sınırını aşmış ise fazladan bagaj hakkı satın alır.
 
 ![ağırlıkkontrol](https://user-images.githubusercontent.com/53192718/86411504-aa4d6700-bcc5-11ea-9c5a-8aef594ec447.png)
 
@@ -48,17 +48,17 @@ Baggage Check işlemini başarıyla geçen bagaj Securtiy arayüzüne gelir ve i
 ![luggage1](https://user-images.githubusercontent.com/53192718/86413628-5729e300-bcca-11ea-8a72-166972115625.png)
 
 ### 2.6 Bagaj Dağıtım Ekranı
-Securtiy işlemini başarıyla geçen bagaj bu arayüz de Sort işlemine tabi tutulur. Bu Sort işlemi sırasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
+Securtiy işlemini başarıyla geçen bagaj bu arayüzde Sort işlemine tabi tutulur. Bu Sort işlemi sırasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
 
 ![sort](https://user-images.githubusercontent.com/53192718/86412050-d61d1c80-bcc6-11ea-8697-7cc80e59aefc.gif)
 
 ### 2.7 Bagaj Yükleme Ekranı
-Sort işlemini başarıyla geçen bagaj bu arayüz de uçağa yüklenir. Eğer yükleme aşamasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
+Sort işlemini başarıyla geçen bagaj bu arayüzde uçağa yüklenir. Eğer yükleme aşamasında kaybolan bir bagaj var ise Lost Property Table kısmına yönlendirilir.
 
 ![Load](https://user-images.githubusercontent.com/53192718/86412136-02d13400-bcc7-11ea-80f9-079059bae568.gif)
 
 ### 2.8 Bagaj İndirme Ekranı
-Uçak varış noktasına geldiğinde bu arayüz de bagajların indirme işlemi yapılır.
+Uçak varış noktasına geldiğinde bu arayüzde bagajların indirme işlemi yapılır.
 
 
 ![unload](https://user-images.githubusercontent.com/53192718/86413330-973c9600-bcc9-11ea-8efe-3f791667a9ed.gif)
